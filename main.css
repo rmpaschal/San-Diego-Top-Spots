@@ -1,4 +1,22 @@
 h1{
-    text-align: center;
-    color: aqua;
+    text-align: left;
+    color: rgb(218, 20, 20)
+}
+
+#bg-image {
+    background: url('sdmap.jpg');
+    background-repeat: repeat;
+    object-fit: cover;
+    height: auto;
+    width: auto;
+    opacity: .85;
+    z-index: -100;
+}
+
+table {
+    background-color: rgba(215, 227, 231, 0.85);
+    border: 5px solid rgb(218, 20, 20);
+}
+thead{
+    color: rgb(218, 20, 20);
 }
